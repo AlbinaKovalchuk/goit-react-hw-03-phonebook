@@ -1,0 +1,43 @@
+.form {
+    margin-bottom: 50px;
+}
+
+.label {
+    font-size: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.title {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.input {
+    height: 40px;
+    padding: 0 10px 0 10px;
+    border: 1px solid grey;
+    font-size: 20px;
+}
+
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    color: rgb(24, 16, 14);
+    font-weight: 400;
+    font-size: 20px;
+    background-color: rgb(100, 146, 247); 
+    border-radius: 8px;
+
+}
+
+.button:hover,
+.button:focus {
+    background-color: blue;
+}

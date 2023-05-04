@@ -1,0 +1,37 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 10px; */
+    border-radius: 50%;
+    background-color: rgb(100, 146, 247); 
+}
+
+.number {
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background-color: yellow;
+}
